@@ -1,8 +1,9 @@
 title: "Jonathan Brinkerhoff"
 email: "j.brinkerhoff@live.com"
 description: "Portfolio of Jonathan Brinkerhoff – data analyst, aspiring data scientist, and developer"
-baseurl: "" # leave empty for root domain
-url: "https://bhoff909.github.io"
+baseurl: /REPOSITORY-NAME/
+domain: bhoff909.github.io
+url: https://bhoff909.github.io
 theme: leap-day
 markdown: kramdown
 plugins:
