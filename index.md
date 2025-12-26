@@ -1,27 +1,28 @@
----
-layout: page
-title: Home
----
+title: Brian Hoffman
+description: Your personal description goes here
+baseurl: "" # leave empty for username.github.io
+url: "https://bhoff909.github.io" # change to your domain if using one
 
-# Hello, I’m Jonathan Brinkerhoff
+# Theme settings
+theme: jekyll-theme-leap-day
+github:
+  is_project_page: false
 
-I am a data analyst and aspiring data scientist with experience in R, statistics, and data visualization.
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-## Resume
+# Site settings
+email: your.email@example.com
+twitter_username: yourtwitter
+github_username: bhoff909
+linkedin_username: yourlinkedin
 
-- **Education:** M.Sc. Statistics
-- **Skills:** R, Data Visualization, Regression Analysis, Propensity Score Methods
-- **Experience:** Collaborative projects in higher education and data consulting
-
-## Projects
-
-- **GitHub Portfolio:** [View Projects](https://github.com/bhoff909)
-- Example projects can include:
-  - Data analysis projects
-  - Statistical modeling with R
-  - Small applied machine learning projects
-
-## Contact
-
-- **Email:** j.brinkerhoff@live.com
-- **LinkedIn:** [Jonathan Brinkerhoff](https://www.linkedin.com/in/jonathanbrinkerhoff)
+# Navigation links
+navbar-links:
+  About: "about"
+  Projects: "projects"
+  Blog: "blog"
+  Contact: "contact"
