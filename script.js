@@ -1,7 +1,6 @@
-// Update copyright year
-document.addEventListener('DOMContentLoaded', function() {
-    const yearElement = document.getElementById('current-year');
-    if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
-    }
-});
+// Direct approach - doesn't wait for DOMContentLoaded
+// because script is at bottom of body
+const yearSpan = document.getElementById('copyright-year');
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
